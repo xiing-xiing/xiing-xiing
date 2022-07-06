@@ -1,0 +1,17 @@
+1、去苹果开发者官网，，搜索Command Line Tools for xcode
+苹果开发者官网地址：https://developer.apple.com/download/all/
+
+2、安装homebrew
+/bin/bash -c “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)”
+
+3、安装nodejs
+ brew install nodejs
+ 
+4、获取nodejs模块安装目录访问权限
+sudo chmod -R 777 /usr/local/lib/node_modules/
+
+5、安装全局的webpack
+npm install webpack -g
+
+6.安装vue脚手架vue-cli
+npm install vue-cli -g
