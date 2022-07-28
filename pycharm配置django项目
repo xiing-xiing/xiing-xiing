@@ -1,0 +1,11 @@
+配置配置的名称：给运行的配置起一个名字
+
+配置主机名称：运行时候的ip和端口，如果本机开发可以填本机ip
+
+配置环境变量，一个简单的环境变量参考：PYTHONUNBUFFERED=1;DJANGO_SETTINGS_MODULE=MyWeb.settings
+
+配置python解释器：配置python的路径
+
+配置环境变量：一个简单的环境变量的参考：PYTHONUNBUFFERED=1;DJANGO_SETTINGS_MODULE=MyWeb.settings
+
+配置项目的根目录：manage.py所在的目录
