@@ -1,0 +1,9 @@
+点击运行/调试配置按钮
+
+按自己的心意起个喜欢的名字
+
+检查或者配置package.json的配置，可以参考如下：~/Desktop/ander/ander-vue/package.json
+
+命令选择：run
+
+脚本填上：serve
