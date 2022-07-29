@@ -1,0 +1,9 @@
+参考以下命令：
+brew install pyenv
+pyenv install 2.7.18
+export PATH="$(pyenv root)/shims:${PATH}"
+pyenv global 2.7.18
+python --version
+
+随后将上述路径添加到环境变量：
+echo 'PATH=$(pyenv root)/shims:$PATH' >> ~/.zshrc
