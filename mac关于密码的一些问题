@@ -1,0 +1,10 @@
+情况：
+sudo su
+Password:
+Old Password:
+New Password:
+Retype New Password:
+su: Sorry
+出现这种情况需要修改root用户的密码，步骤如下：
+1、sudo -s
+2、passwd root修改密码即可
