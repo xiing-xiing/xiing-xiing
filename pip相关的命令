@@ -32,3 +32,5 @@ python -m pip install --upgrade pip
 临时更新pip源：
 pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple some-package <已经安装的库>
 
+pip查看可以安装的库的版本：
+pip3 install requests== 
