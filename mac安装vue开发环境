@@ -2,7 +2,7 @@
 苹果开发者官网地址：https://developer.apple.com/download/all/
 
 2、安装homebrew
-/bin/bash -c “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)”
+/bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
 
 3、安装nodejs
  brew install nodejs
