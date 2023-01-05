@@ -1,0 +1,3 @@
+vim ~/.bash_profile
+alias ll='ls -alF'
+source ~/.bash_profile
