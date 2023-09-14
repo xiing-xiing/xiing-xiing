@@ -1,0 +1,23 @@
+查看 ：cd ~/.ssh ls
+
+生成：ssh -v git@github.com
+最后两句会出现：
+No more authentication methods to try.  
+Permission denied (publickey).
+
+在ternimal下输入：ssh-agent -s
+然后会提示类似的信息：
+SSH_AUTH_SOCK=/tmp/ssh-GTpABX1a05qH/agent.404; export SSH_AUTH_SOCK;  
+SSH_AGENT_PID=13144; export SSH_AGENT_PID;  
+echo Agent pid 13144;
+
+接着再输入：ssh-add ~/.ssh/id_rsa
+会提示：Identity added: ...（这里是一些ssh key文件路径的信息）
+(注意)如果出现错误提示：Could not open a connection to your authentication agent.
+请执行命令：eval `ssh-agent -s`后继续执行命令 ssh-add ~/.ssh/id_rsa，这时候一般没问题啦。
+
+打开你刚刚生成的id_rsa.pub，将里面的内容复制，进入你的github账号，在settings下，SSH and GPG keys下new SSH key，title随便取一个名字，然后将id_rsa.pub里的内容复制到Key中，完成后Add SSH Key。
+
+最后一步，验证Key
+在ternimal下输入命令：
+ssh -T git@github.com
