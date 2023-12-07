@@ -8,7 +8,7 @@
 
 5、按如下模板编辑supervisord.conf：
 [include]
-files = /etc/supervisord.d/*.conf
+files = /etc/supervisor/config.d/*.conf
 
 6、
 cd  /etc/supervisor/config.d
