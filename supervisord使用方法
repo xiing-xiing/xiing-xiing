@@ -10,7 +10,9 @@
 [include]
 files = /etc/supervisord.d/*.conf
 
-6、新建conf文件，按如下模板：
+6、
+cd  /etc/supervisor/config.d
+新建conf文件，按如下模板：
 ; 设置进程的名称，使用 supervisorctl 来管理进程时需要使用该进程名
 [program:your_program_name] 
 command=python server.py --port=9000
