@@ -27,3 +27,5 @@ stdout_logfile = /var/log/supervisord/tornado_server.log
 loglevel=info
 
 
+7、启动
+ supervisord -c /etc/supervisor/supervisord.conf
