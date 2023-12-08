@@ -7,6 +7,8 @@
 4、创建目录：mkdir /etc/supervisor/config.d
 
 5、按如下模板编辑supervisord.conf：
+vim /etc/supervisor/config.d/{变量名}.conf
+
 [include]
 files = /etc/supervisor/config.d/*.conf
 
