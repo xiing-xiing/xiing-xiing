@@ -30,4 +30,6 @@ loglevel=info
 
 
 7、启动
- supervisord -c /etc/supervisor/supervisord.conf
+mkdir  /var/log/supervisord
+touch /var/log/supervisord/tornado_server.log
+supervisord -c /etc/supervisor/supervisord.conf
